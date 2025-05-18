@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "llama": "NODE_OPTIONS='--no-deprecation' ts-node src/llama.ts"
+    "llama": "NODE_OPTIONS='--no-deprecation' ts-node src/llama.ts",
+    "chatPrompt": "NODE_OPTIONS='--no-deprecation' ts-node src/chatPrompt.ts"
   },
   "keywords": [],
   "author": "",
