@@ -1,0 +1,27 @@
+{
+  "name": "lanchain-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "llama": "NODE_OPTIONS='--no-deprecation' ts-node src/llama.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.43",
+    "@langchain/core": "^0.3.56",
+    "@langchain/openai": "^0.5.10",
+    "dotenv": "^16.5.0",
+    "langchain": "^0.3.26",
+    "openai": "^4.100.0"
+  }
+}
